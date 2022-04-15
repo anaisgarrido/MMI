@@ -4,7 +4,7 @@ body{
    margin: 0;
 }
 
-#header{
+header{
     display: flex;
     align-items: center;
     padding-left: 20px;
@@ -12,12 +12,25 @@ body{
     background-color: #7CFFCB; background-image:linear-gradient(to right, #b3ffab, #12fff7);
 
 }
-.MMI
-{
-	float: right;
+#MMI{
+	
+    float: right;
+    margin-right: 55px;
+    width: 300px;
+	max-height: auto;
+
 }
-#image{
+#image1{
     height: 100px;
+}
+
+#clic{
+	
+    float:right;
+    margin-right: 775px;
+    width: 5%;
+	height: auto;
+
 }
 
 #titres{
@@ -30,4 +43,5 @@ body{
     margin: 8px;
     margin-top: 32px;
     font-size:17px;
+    text-align: justify;
 }
